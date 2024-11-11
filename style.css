@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", serif;
+}
+ul li{
+    list-style: none;
+}
+.nav-links ul {
+    gap: 25px;
+}
+.nav-links ul li a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.nav-links ul li a:hover{
+    color: grey;
+}
+.nav-container{
+    justify-content: space-between !important;
+    margin-block: 20px;
+}
+.nav-button button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 4px;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+}
+.nav-button button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.nav-button button:hover .download{
+    filter: invert(1) !important;
+}
+.nav-button button img{
+    width: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-logo h1{
+    font-size: 20px;
+}
+.right-main img{
+    width: 400px;
+    height: 410px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+.left-main {
+    align-items: flex-start !important;
+    gap: 25px;
+    width: 58%
+}
+.left-main h1{
+    font-size: 3.4rem;
+    font-weight: 400;
+}
+.left-main p{
+    color: #505050;
+    font-size: 15px;
+}
+.highlight{
+    font-weight: 900;
+}
+.stroke{
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.main-container{
+    justify-content: space-between !important;
+}
+.main{
+    margin-block: 100px;
+}
+.dummy{
+    height: 100vh;
+}
+.skills-img{
+    width: 41px;
+}
+.skills-img img{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.skills-container{
+    gap: 55px;
+}
+.skills-item{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    gap: 5px;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+}
+.skills-item:hover{
+    background-color: black;
+    color: white;
+}
+.skills-item:hover .skills-img img{
+    filter: invert(1);
+}
+.skills-item-container{
+    justify-content: space-between !important;
+    width: 100%;
+    gap: 88px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.experience-item{
+    align-items: flex-start !important;
+    gap: 20px;
+    border: 1px solid #7c7c7c;
+    padding: 17px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.experience-item:hover{
+    background-color: rgb(44, 44, 44);
+}
+.experience-container{
+    margin-block: 60px;
+    gap: 20px;
+}
+.heading-exp{
+    gap: 20px;
+}
+.experience{
+    background-color: black;
+    color: white;
+    padding-block: 10px;
+}
+.experience-item p{
+    font-size: 14px;
+    color: #bbbbbb;
+}
+.nav-toggle{
+    display: none;
+}
+.left-about img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    filter: saturate(0);
+    transition: all 0.5s ease-in-out;
+    border-radius: 5%;
+}
+.left-about img:hover{
+    filter: saturate(1);
+    border-radius: 50%;
+}
+.about{
+    margin-block: 120px;
+}
+.right-about{
+    align-items: flex-start !important;
+}
+.about-container{
+    justify-content: space-between !important;
+    gap: 80px;
+}
+.social-items{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.social-items:hover{
+    background-color: black;
+}
+.social-items:hover .social{
+    filter: invert(1);
+}
+.social-items img{
+    width: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.social-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.right-about{
+    gap: 50px;
+}
+.project-container h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.project-left{
+    align-items: flex-start !important;
+    gap: 20px;
+    width: 45%;
+}
+.project-left h1{
+    font-weight: 800;
+}
+.project-left h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.project-left p{
+    font-size: 13px;
+    color: #979797;
+}
+.project-img img{
+    width: 460px;
+}
+.project-item, .project-item2{
+    justify-content: space-between !important;
+    gap: 20px;
+}
+.project-container{
+    gap: 30px;
+}
+.project-container h1{
+    padding-block: 46px;
+}
+.project-item h1, .project-item2 h1{
+    padding-block: 0;
+}
+.project-container h1 {
+    padding-block: 30px;
+    margin-top: 20px;
+}
+.project-item h1 {
+    padding-block: 0;
+    margin-top: 0;
+}
+.project-section{
+    padding-bottom: 100px;
+}
+
+.project-item2 .project-left h1{
+    padding-block: 0;
+    margin-top: 0;
+}
+
+.about-container{
+    margin-bottom: 100px !important;
+}
+/* .project-item{
+    padding-bottom: 20px;
+} */
+/* .project-item2{
+    padding-top: 20px;
+} */
+.nav-container{
+    margin-bottom: -30px;
+}
+
+.service-item{
+    width: 241px;
+    height: 290px;
+    border: 1px solid black;
+    border-radius: 11px;
+    padding: 20px;
+    gap: 15px;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.service-item:hover{
+    transform:translateY(-10px) ;
+    background-color: rgb(46, 46, 46);
+}
+.service-item p{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(133, 133, 133);
+}
+.service-item img{
+    filter: invert(1);
+}
+.service-container{
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+    width: 100%;
+    gap: 20px;
+}
+.para{
+    width: 50%;
+    text-align: center;
+}
+.service-main{
+    gap: 40px;
+}
+
+input[type=text]{
+    width: 401px;
+    border: 1px solid black;
+    height: 48px;
+    border-radius: 5px;
+    padding-inline: 10px;
+}
+input[type="text"]:focus {
+    border: 1px solid black;         /* Border remove karne ke liye */
+    outline: none;        /* Focus outline ko bhi remove karne ke liye */
+    box-shadow: none;     /* Agar koi shadow apply ho toh usay remove karne ke liye */
+  }
+.submit{
+    color: white;
+    background: none;
+    background: black;
+    border: 1px solid black;
+    padding: 12px 41px;
+    border-radius: 4px;
+    margin-right: 22px;
+    transition: all 0.3s ease-in-out;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+.input-sec{
+    gap: 20px;
+}
+.contact-btn .social-links .social-items{
+    width: 40px;
+    height: 40px;
+}
+.contact-btn .social-links .social-items img{
+    width: 14px;
+}
+.paragraph{
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.heading-2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.contact-right{
+    width: 50%;
+}
+.contact-container{
+    gap: 30px;
+    justify-content: space-between !important;
+}
+.contact-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .contact{
+    padding-bottom: 100px;
+    padding-top: 40px;
+  }
+  .footer{
+    padding-block: 10px;
+  }
+  .footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
