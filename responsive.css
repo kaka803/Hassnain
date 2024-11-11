@@ -147,7 +147,7 @@
 }
 @media only screen and (max-width: 350PX){
     .left-main h1 {
-        font-size: 1.8rem !important;
+        font-size: 1.5rem !important;
         font-weight: 400;
     }
 }
