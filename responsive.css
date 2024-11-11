@@ -136,7 +136,27 @@
         gap: 30px;
     }
 }
+@media only screen and (max-width: 420PX){
+    .contact-btn{
+        flex-direction: column !important;
+        gap: 20px;
+    }
+    .submit{
+        margin: 0 !important;
+        }
+}
+@media only screen and (max-width: 350PX){
+    .left-main h1 {
+        font-size: 1.8rem !important;
+        font-weight: 400;
+    }
+}
 @media only screen and (max-width: 520PX){
+    
+    
+    .input-sec{
+        width: 100%;
+    }
     .para{
         width: 100%;
     }
